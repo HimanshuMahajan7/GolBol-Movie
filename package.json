@@ -1,0 +1,21 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "This is backend for movies assignment (Assignment from GolBol)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon index.js"
+  },
+  "author": "Himanshu Mahajan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.4"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1",
+    "nodemon": "^2.0.2"
+  }
+}
